@@ -21,11 +21,12 @@ module.exports = {
       },
     },
   ],
+  parser: 'vue-eslint-parser',
   parserOptions: {
     ecmaVersion: 'latest',
     parser: '@typescript-eslint/parser',
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint', 'vue'],
-  rules: {},
+  rules: { 'vue/multi-word-component-names': 'off' },
 }
