@@ -8,6 +8,9 @@ export default defineNuxtConfig({
       publicDir: path.join(__dirname, '../docs')
     }
   },
+  app: {
+    baseURL: '/nuxt3/'
+  },
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss']
 })
