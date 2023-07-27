@@ -5,12 +5,12 @@ export default defineNuxtConfig({
   ssr: true,
   nitro: {
     output: {
-      publicDir: path.join(__dirname, '../docs')
-    }
+      publicDir: path.join(__dirname, '../docs'),
+    },
   },
   app: {
-    baseURL: '/nuxt3/'
+    baseURL: '/nuxt3/',
   },
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss']
+  modules: ['@nuxtjs/tailwindcss'],
 })
